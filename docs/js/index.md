@@ -19,5 +19,5 @@ JavaScript 是前端开发中非常重要的基础知识，对于前端工作者
 # 目录
 1. [for...in和for...of的区别使用](./book1_for.md)  
 2. [js执行原理](./book2_loop.md)  
-3. [隐式转化](./book3_trans.md)  
+3. [隐式转化引申的拓展问题](./book3_trans.md)  
 4. [运算符执行顺序](./book4_trans_extra.md)  

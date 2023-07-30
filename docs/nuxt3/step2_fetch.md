@@ -11,29 +11,14 @@
 # 利用Nuxt3中的混合渲染就能轻松搞定
 
 ::: tip 
-
- 1、用混合渲染的proxy来配置服务端的请求转发  
  - 混合渲染使用 **Route Rules** 允许每个路由使用不同的缓存规则，并决定服务器应如何响应给定 URL 上的新请求。
-   
- 2、用nitro的devProxy来配置本地开发的请求转发
- - devProxy可以配置开发环境下的请求转发
 :::
 
 #### 1、在nuxt.config.ts中添加以下配置
 ```js
 export default defineNuxtConfig({
-  nitro: {
-    // 开发环境中的请求转发
-    devProxy: {
-      "/dev-api": {
-        target: 'https://cnodejs.org/api/v1',
-        changeOrigin: true,
-        prependPath: true,
-      },
-    },
-  },
   routeRules: {
-    // 服务端请求中的请求转发
+    // 针对路径进行接口转发
     '/dev-api/**': {
       proxy: `https://cnodejs.org/api/v1/**`  // https://cnodejs.org/api/v1 是个公共接口api前缀，将其替换为后端写好的接口调用地址就好
     },
@@ -73,8 +58,6 @@ getInfo();
 <img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5394279860494f9992e849b5a401ccef~tplv-k3u1fbpfcp-watermark.image?" alt="image.png" width="100%" />
 
 #### 4、页面中点击button也可以正常请求
-
-#### 5、就保持这个配置不用改，直接部署上线就能直接用
 # 看文档才是第一生产力
  这里推荐两个Nuxt3的中文文档
 - [某个高手写的中文文档](https://ezdoc.cn/docs/nuxtjs/getting-started/introduction)
@@ -84,6 +67,7 @@ getInfo();
 - [cnode官方提供](https://cnodejs.org/api)
  
 # 第一次写文章，多多包涵啦！
-这个方案可能不是我最先发现的，也可能不算是最优解决方案，希望朋友们看到类似的文章或者更好的解决方案，可以踢我一脚！！！   
-另外这是我开发一个多月的[PC端官网](https://www.lc.plus)，大家可以友善提建议，源码demo要看看大家的评论反应我再决定放不放吧。
-改文章已同步发送到[掘金](https://juejin.cn/post/7252976055094001720)
+这个方案可能不是我最先发现的，也可能不算是最优解决方案。  
+希望朋友们看到类似的文章或者更好的解决方案，可以踢我一脚！！！  
+另外这是我开发一个多月的[官网](https://www.lc.plus)，大家可以友善提建议。  
+该文章已同步发送到[掘金](https://juejin.cn/post/7252976055094001720)

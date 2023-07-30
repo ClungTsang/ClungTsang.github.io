@@ -1,9 +1,10 @@
 # 安装、运行nuxt3项目
-## 先决条件
+::: tip 先决条件
 - 掌握vue3语法、基礎阅读和科学上网的能力
 - Node.js* (最新LTS版本) 👉 [下载](https://nodejs.org/)
 - Visual Studio Code 👉 [下载](https://code.visualstudio.com/)
 - Volar Extension 👉 [下载](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+:::
 
 
 <!-- ## 知道怎么安装看这个 

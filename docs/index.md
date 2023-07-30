@@ -13,11 +13,14 @@ hero:
     alt: star
   actions:
     - theme: brand
-      text: 查看我的文章
-      link: /book/index.md
+      text: 查看企业官网
+      link: https://lc.plus
     - theme: alt
-      text: 在github上查看我的项目
-      link: https://github.com/ClungTsang
+      text: 查看掘金
+      link: https://juejin.cn/post/7252976055094001720
+    - theme: alt
+      text: 开始阅读
+      link: /js/index.md
 
 features:
   - icon: 💖

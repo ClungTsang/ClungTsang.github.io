@@ -61,6 +61,14 @@ export default {
             {
               text: '运算符优先级',
               link: '/js/book4_trans_extra.md'
+            },
+            {
+              text: 'ES6中Symbol的用法',
+              link: '/js/book5_Symbol.md'
+            },
+            {
+              text: '手写call方法',
+              link: '/js/book6_rewrite_call.md'
             }
           ]
         },

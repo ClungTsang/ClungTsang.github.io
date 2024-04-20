@@ -9,7 +9,7 @@ export default {
     siteTitle: "HIsheR",
     title: 'HIsheR`s blog',
     description: '成年人没有四季，只有工作日和周末，在无需onCall就能安睡的周末夜晚，总是不约而同梦见',
-    logo: "https://hisher.site/pic/star.webp",
+    logo: "https://www.hisher.site/pic/star.webp",
     nav: [
       { text: "Nuxt3", link: "/nuxt3/index" },
       { text: "Vue3", link: "/vue/index" },

@@ -19,8 +19,8 @@ hero:
       text: 查看掘金
       link: https://juejin.cn/post/7252976055094001720
     - theme: alt
-      text: 开始阅读
-      link: /js/index.md
+      text: 自我介绍
+      link: /intro/index.md
 
 features:
   - icon: 💖

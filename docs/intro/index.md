@@ -1,7 +1,7 @@
 ---
 titleTemplate: '个人简历'
 ---
-# 曾楚龙 - 开发工程师
+# 曾楚龙 - 全栈工程师
 
 博客 👉 [https://blog.hisher.site](https://blog.hisher.site)
 

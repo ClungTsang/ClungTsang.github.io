@@ -14,7 +14,7 @@ export default {
       { text: "Nuxt3", link: "/nuxt3/index" },
       { text: "Vue3", link: "/vue/index" },
       { text: "JS", link: "/js/index" },
-      { text: "CSS", link: "/css/index" },
+      { text: "自我介绍", link: "/intro/index" },
     ],
     socialLinks: [{
       icon: 'github',

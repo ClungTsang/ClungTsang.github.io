@@ -11,8 +11,8 @@ titleTemplate: '个人简历'
 
 ## 自我介绍
 - 于2020年开始承接项目，具备独立负责需求对接、需求文档编写、前后端技术选型、个性化定制开发、服务器选型、域名购买、部署和上线工作。
-- <span style="background-color: yellow;">**4年** </span> 前端开发经验：Vue全家桶、Nuxt3、Uniapp、ES6、TS、TailwindCSS、小程序、后台管理系统（ERP、CRM）、PC官网、独立站
-- <span style="background-color: yellow;">**2年** </span> 后端开发经验：Java、SpringBoot，MyBatisPlus 、分布式的后端开发经验，半年全栈开发经验
+- **4年**  前端开发经验：Vue全家桶、Nuxt3、Uniapp、ES6、TS、TailwindCSS、小程序、后台管理系统（ERP、CRM）、PC官网、独立站
+- **2年**  后端开发经验：Java、SpringBoot，MyBatisPlus 、分布式的后端开发经验，半年全栈开发经验
 - 具备全栈开发能力、需求对接、需求文档和交付文档、前后端技术选型、个性化定制开发、服务器选型、域名购买、部署和上线工作。
 - 具备服务端渲染、预渲染和 **SEO** 搜索引擎优化的能力
 - 大学期间获得省、国家级各类奖项若干（包含第八届大学生软件杯全国一等奖）
@@ -21,9 +21,9 @@ titleTemplate: '个人简历'
 ## 项目介绍
 
 ### 领辰移民官网：*是一款提供全方位移民服务的平台*
-- 优秀的SEO搜索引擎优化和SSR静态页面预渲染机制，<span style="background-color: yellow;">提高百度和谷歌的收录页面数量 </span> 
-- 使用预渲染技术生成静态页面，同时配配置服务端压缩，使首次访问页面的加载体积减少 <span style="background-color: yellow;"> **50%**</span> ，加载耗时减少 <span style="background-color: yellow;"> **30%**</span> 。
-- 针对客服和地图等组件，实现客户端按需加载， <span style="background-color: yellow;">极大丰富了网站的使用场景</span>。
+- 优秀的SEO搜索引擎优化和SSR静态页面预渲染机制，提高百度和谷歌的收录页面数量  
+- 使用预渲染技术生成静态页面，同时配配置服务端压缩，使首次访问页面的加载体积减少  **50%** ，加载耗时减少  **30%** 。
+- 针对客服和地图等组件，实现客户端按需加载， 极大丰富了网站的使用场景。
 - 配置nginx文件，根据访问端的设备信息跳转对应的网站，提高了用户访问体验。
 - 公司简介页面中添加动画加载效果，提升公司形象气质。
 ::: tip 技术栈

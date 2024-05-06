@@ -13,7 +13,7 @@ export default {
     nav: [
       { text: "Nuxt3", link: "/nuxt3/index" },
       { text: "Vue3", link: "/vue/index" },
-      { text: "JS", link: "/js/index" },
+      { text: "性能调优", link: "/performance/index" },
       { text: "自我介绍", link: "/intro/index" },
     ],
     socialLinks: [{
@@ -80,8 +80,8 @@ export default {
           ]
         },
         {
-          text: 'http', link: '/http/index', items: [
-            { text: '浏览器中的缓存机制', link: '/http/book1_cache.md' },
+          text: '性能调优', link: '/performance/index', items: [
+            { text: '考虑使用函数或计算属性来生成ref', link: '/performance/book1.md' },
           ]
         },
         {
@@ -90,10 +90,16 @@ export default {
             { text: 'ref和reactive的区别', link: '/vue/book2_ref&reactive.md' },
           ]
         },
+        
         {
           text: 'nuxt3', link: '/nuxt3/index', items: [
             { text: '安装、运行nuxt3项目', link: '/nuxt3/step1_create.md' },
             { text: 'nuxt3中最优雅的请求方式', link: '/nuxt3/step2_fetch.md' }
+          ]
+        },
+        {
+          text: 'http', link: '/http/index', items: [
+            { text: '浏览器中的缓存机制', link: '/http/book1_cache.md' },
           ]
         },
         {

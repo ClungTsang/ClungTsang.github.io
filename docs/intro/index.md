@@ -15,12 +15,15 @@ titleTemplate: '个人简历'
 - **2年** 后端开发经验：Java、SpringBoot，MyBatisPlus 、分布式的后端开发经验，半年全栈开发经验
 - 大学期间获得省、国家级各类奖项若干（包含第八届大学生软件杯全国一等奖）
 
-## 前端开发
-- 熟练掌握Vue3全家桶、Uniapp、ES6、TS
-- 熟练掌握Nuxt3官网、（CRM、ERP）后台管理系统、微信（支付宝，抖音）小程序移动端开发
-- 具备SEO搜索引擎优化、服务端渲染和预渲染和的能力
-- 基于TailwindCSS、UnoCSS、ElementPlus、uView快速生成网页
-- 
+## 全栈开发
+- 前端
+  - 熟练掌握Vue3全家桶、Uniapp、ES6、TS
+  - 熟练掌握Nuxt3官网、（CRM、ERP）后台管理系统、微信（支付宝，抖音）小程序移动端开发
+  - 具备SEO搜索引擎优化、服务端渲染和预渲染和的能力
+  - 基于TailwindCSS、UnoCSS、ElementPlus、uView快速生成网页
+- 后端
+  - 熟练掌握Java、Springboot全家桶、分布式开发、MyBatisPlus
+
 ## 项目承包
 - 具备需求对接、文档编写、技术选型、服务器选型、部署、上线、调优、交付和维护工作。
   - 服务器选配、购买、配置、优化、ssl证书认证、域名解析
@@ -68,11 +71,10 @@ Vue3全家桶、ElementPlus、Wangeditor富文本编辑器、dayjs、Pinia状态
 #### 文章列表![](https://www.hisher.site/pic/intro/LC_ADMIN_ARTICLE_LIST.webp)  
 #### 发布文章![](https://www.hisher.site/pic/intro/LC_ADMIN_POST_ARTICLE.webp)  
 
+## 多语言能力
+- 中文、繁体中文、粤语、英语流畅交流和对接
 
-## 英语能力
-- 英语阅读、口语、交流、对接
-- 全英文官方源码、规范命名
-- 
 ## 能力拓展
 - 便于个人积累，我开发基于vitepress的[个人博客](https://blog.hisher.site)，将其部署在我的个人服务器上
 - 通过网站托管平台生成我的[Vercel站点](https://clung-tsang-github-io.vercel.app/)和[Github站点](https://clungtsang.github.io/)
+- 持续关注AIGC技术

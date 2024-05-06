@@ -62,8 +62,8 @@ titleTemplate: '个人简历'
 #### [项目列表](https://m.lc.plus)![](https://www.hisher.site/pic/intro/LC_M_PROJECT.png)  
 #### [文章列表](https://m.lc.plus)![](https://www.hisher.site/pic/intro/LC_M_ARTICLE_LIST.png)  
 ### CRM后台管理系统
-配套后台管理系统，拥有完整的文章管理、用户管理、项目管理、评论管理、权限管理、角色管理、菜单管理、日志管理、系统设置等功能。  
-支持增删改查、分页、搜索、导出、导入。
+*配套后台管理系统，拥有完整的文章管理、用户管理、项目管理、评论管理、权限管理、角色管理、菜单管理、日志管理、系统设置等功能。*  
+*支持增删改查、分页、搜索、导出、导入*
 ::: tip 技术栈
 - 🔥 Vue3、Vite、TypeScript、pinia - 新一代前端框架
 - 💥 Element-Plus、Tailwindcss - 优秀的组件库

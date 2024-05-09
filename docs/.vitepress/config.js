@@ -5,6 +5,9 @@ export default {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2023-present HIsheR'
     },
+    search: {
+      provider: 'local'
+    },
     lang: 'zh-CN',
     siteTitle: "HIsheR",
     title: 'HIsheR`s blog',
@@ -44,6 +47,7 @@ export default {
       "/": [
         {
           text: 'js技巧',
+          collapsed: true, // 默认展开
           link: '/js/index',
           items: [
             {
@@ -73,6 +77,7 @@ export default {
           ]
         },
         {
+          collapsed: true, // 默认展开
           text: 'css', link: '/css/index', items: [
             { text: '如何使用transform', link: '/css/book1_transform.md' },
             { text: '8种让元素水平垂直居中的方式', link: '/css/book2_center.md' },
@@ -80,11 +85,13 @@ export default {
           ]
         },
         {
+          collapsed: true, // 默认展开
           text: '性能调优', link: '/performance/index', items: [
             { text: '考虑使用函数或计算属性来生成ref', link: '/performance/book1.md' },
           ]
         },
         {
+          collapsed: true, // 默认展开
           text: 'vue', link: '/vue/index', items: [
             { text: 'vue3响应式原理', link: '/vue/book1_proxy.md' },
             { text: 'ref和reactive的区别', link: '/vue/book2_ref&reactive.md' },
@@ -92,17 +99,20 @@ export default {
         },
         
         {
+          collapsed: true, // 默认展开
           text: 'nuxt3', link: '/nuxt3/index', items: [
             { text: '安装、运行nuxt3项目', link: '/nuxt3/step1_create.md' },
             { text: 'nuxt3中最优雅的请求方式', link: '/nuxt3/step2_fetch.md' }
           ]
         },
         {
+          collapsed: true, // 默认展开
           text: 'http', link: '/http/index', items: [
             { text: '浏览器中的缓存机制', link: '/http/book1_cache.md' },
           ]
         },
         {
+          collapsed: true, // 默认展开
           text: 'npm技巧', link: '/npm/index.md', items: [
             { text: '切换镜像源', link: '/npm/book1_mirror.md' },
             { text: '额外指令', link: '/npm/book2_extra.md' },

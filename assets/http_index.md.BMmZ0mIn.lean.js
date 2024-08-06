@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./chunks/framework.loP4pEEE.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"http/index.md","filePath":"http/index.md","lastUpdated":null}'),n={name:"http/index.md"};function r(o,s,d,c,p,i){return a(),e("div")}const m=t(n,[["render",r]]);export{l as __pageData,m as default};

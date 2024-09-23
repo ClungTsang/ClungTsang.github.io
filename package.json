@@ -1,12 +1,12 @@
 {
-  "name": "HIsheR`s Blog",
+  "name": "HIsheR",
   "version": "1.0.0",
   "description": "成年人没有四季，只有工作日和周末，在无需coding就能安睡的周末夜晚，总是不约而同梦见",
   "main": "index.js",
   "scripts": {
     "deploy":"bash deploy.sh",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev docs -o",
+    "docs:dev": "vitepress dev docs -o --host ",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
   },
@@ -14,8 +14,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "1.1.3",
-    "vue": "^3.4.23"
+    "vitepress": "1.3.4",
+    "vue": "^3.5.8"
   },
   "dependencies": {
     "element-plus": "^2.2.7"

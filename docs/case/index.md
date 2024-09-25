@@ -1,6 +1,17 @@
 # 项目案例展示🌟
 
-## 普修科技官网：[查看](https://pursuer.cn/)
+## 3d模型网站：[电脑查看](https://www.3dcarmdl.com/)
+- 3dcarmdl_汽车3D数字模型专业平台
+::: tip 项目亮点
+- 👏 基于Nuxt3 + Vue3 + SEO 搜索引擎优化，网站可以被[百度](https://www.baidu.com/s?wd=3dcarmdl)和[谷歌](https://www.google.com/search?q=3dcarmdl)收录。
+- ⚡️ 优秀的首屏加载速度，减少用户跳出率
+- 💻 图片占位符能够极大提升用户体验  
+:::
+### [首页](https://www.3dcarmdl.com/)![](https://www.hisher.site/pic/intro/3dcarmdl_home.webp)  
+### [详情](https://www.3dcarmdl.com/model/detail/3)![](https://www.hisher.site/pic/intro/3dcarmdl_detail.webp)  
+### [搜索分类](https://www.3dcarmdl.com/search?searchValue=&classifyId=4850)![](https://www.hisher.site/pic/intro/3dcarmdl_cate.webp)  
+
+## 企业官网：[电脑查看](https://pursuer.cn/)
 - 全球知名的用户体验设计公司，专注智能出行领域用户体验设计与咨询
 ::: tip 项目亮点
 - 👏 基于Nuxt3 + Vue3 + SEO 搜索引擎优化，网站可以被[百度](https://www.baidu.com/s?wd=%E6%99%AE%E4%BF%AE)和[谷歌](https://www.google.com/search?q=%E6%99%AE%E4%BF%AE)收录。
@@ -10,9 +21,10 @@
 ### [首页](https://pursuer.cn/)![](https://www.hisher.site/pic/intro/pursuer_home.webp)  
 ### [宫格展示](https://pursuer.cn/case)![](https://www.hisher.site/pic/intro/pursuer_case.webp)  
 
-## 普修科技社区平台：[查看](https://autoxyz.cn/)
+## 企业社区平台：[电脑查看](https://autoxyz.cn/)
 - 智能出行领域从业者社交平台，分享从业经验与查找行业知识
 ::: tip 项目亮点
+- 👏 基于Nuxt3 + Vue3 + SEO 搜索引擎优化，网站可以被[百度](https://www.baidu.com/s?wd=autoy)和[谷歌](https://www.google.com/search?q=autoy)收录。
 - ✨ 利用SSR服务器端渲染，优化图像，配置服务端压缩，使访问页面速度提高**5倍**以上。
 - 💪 优秀的加载动画、让用户体验更佳，提升公司形象和气质。
 - 💻 建立在现代规范化之上，消除跨浏览器的不一致，包括最新 Chrome、Firefox 和 Safari。
@@ -23,7 +35,7 @@
 ### [设计师列表](https://www.autoxyz.cn/carfungus)![](https://www.hisher.site/pic/intro/autoxyz_designer.webp)  
 
 
-## 普修科技社区小程序
+## 社区平台小程序
 - 一款专注设计领域手机端社区平台，具备招聘发布、视频文章、资料分享、线上支付等功能  
 ::: tip 项目亮点
 - 🎯 Vue3、Vite4、ES6、pnpm - 现阶段最优秀的前端开发框架。
@@ -36,7 +48,7 @@
 ### [资料列表](https://pursuer.cn/)![](https://www.hisher.site/pic/intro/autoy_list.webp)  
 ### [招聘列表](https://pursuer.cn/)![](https://www.hisher.site/pic/intro/autoy_company.webp)  
 
-## 领辰移民官网：[查看](https://lc.plus)
+## 移民官网：[电脑查看](https://lc.plus)
 - 一款提供移民服务的网页端web平台，具有社区聊天、文章、项目、用户、支付等功能  
 ::: tip 项目亮点
 
@@ -51,7 +63,7 @@
 ### [文章列表](https://lc.plus/article)![](https://www.hisher.site/pic/intro/LC_PC_ARTICLE.png)  
 ### [关于我们](https://lc.plus/about)![](https://www.hisher.site/pic/intro/LC_PC_ABOUT.png)  
 
-## 领辰移民小程序：[查看](https://m.lc.plus)
+## 移民小程序：[手机查看](https://m.lc.plus)
 - 一款提供移民服务的手机端平台，具有社区聊天、文章、项目、用户、支付等功能  
 ::: tip 项目亮点
 - ⚡️ Vue 3、Vite、pnpm、esbuild、TypeScript - 就是快！
@@ -63,7 +75,7 @@
 ### [文章列表](https://m.lc.plus/article)![](https://www.hisher.site/pic/intro/LC_M_ARTICLE_LIST.png)  
 ### [用户界面](https://m.lc.plus/user)![](https://www.hisher.site/pic/intro/LC_M_USER.png)  
 
-## 象小美租手机：支付宝搜索：象小美
+## 租手机：支付宝搜索：象小美
 - 一款可以在支付宝上面自由租赁的小程序，基于支付宝原生语言开发，无缝对接官方sdk  
 ### 首页![](https://www.hisher.site/pic/intro/XZ_M_HOME.webp)  
 ### 分类![](https://www.hisher.site/pic/intro/XZ_M_CATEGORY.webp)  
@@ -72,7 +84,7 @@
 ### 用户界面![](https://www.hisher.site/pic/intro/XZ_M_USER.webp)  
 
 
-## 氪金达人移动端商城：[查看](https://game-853.com/)
+## 移动端商城：[手机查看](https://game-853.com/)
 - 港澳台玩家专属的H5游戏点卡充值商城  
 ### [首页](https://game-853.com/)![](https://www.hisher.site/pic/intro/GAME_M_HOME.webp)  
 ### [点卡](https://game-853.com/)![](https://www.hisher.site/pic/intro/GAME_M_POINT.webp)  
@@ -88,21 +100,21 @@
 :::
 
 ### 系统功能
-| 功能 | 描述 |
-| ---- | ---- |
-| 用户管理 | 用户是系统操作者，该功能主要完成系统用户配置 |
-| 部门管理 | 配置系统组织机构（公司、部门、小组），树结构展现支持数据权限 |
-| 岗位管理 | 配置系统用户所属担任职务 |
-| 菜单管理 | 配置系统菜单、操作权限、按钮权限标识等，本地缓存提供性能 |
-| 角色管理 | 角色菜单权限分配、设置角色按机构进行数据范围权划分 |
-| 参数管理 | 对系统动态配置常用参数 |
-| 通知公告 | 系统通知公告信息发布维护 |
-| 操作日志 | 系统正常操作日志记录和查询；系统异常信息日志记录和查询 |
-| 登录日志 | 系统登录日志记录查询包含登录异常 |
-| 在线用户 | 当前系统中活跃用户状态监控 |
-| 系统接口 | 根据业务代码自动生成相关的 api 接口文档 |
-| 服务监控 | 监视当前系统 CPU、内存、磁盘、堆栈等相关信息 |
-| 缓存监控 | 对系统的缓存信息查询，命令统计等 |
+| 功能       | 描述                                                          |
+| ---------- | ------------------------------------------------------------- |
+| 用户管理   | 用户是系统操作者，该功能主要完成系统用户配置                  |
+| 部门管理   | 配置系统组织机构（公司、部门、小组），树结构展现支持数据权限  |
+| 岗位管理   | 配置系统用户所属担任职务                                      |
+| 菜单管理   | 配置系统菜单、操作权限、按钮权限标识等，本地缓存提供性能      |
+| 角色管理   | 角色菜单权限分配、设置角色按机构进行数据范围权划分            |
+| 参数管理   | 对系统动态配置常用参数                                        |
+| 通知公告   | 系统通知公告信息发布维护                                      |
+| 操作日志   | 系统正常操作日志记录和查询；系统异常信息日志记录和查询        |
+| 登录日志   | 系统登录日志记录查询包含登录异常                              |
+| 在线用户   | 当前系统中活跃用户状态监控                                    |
+| 系统接口   | 根据业务代码自动生成相关的 api 接口文档                       |
+| 服务监控   | 监视当前系统 CPU、内存、磁盘、堆栈等相关信息                  |
+| 缓存监控   | 对系统的缓存信息查询，命令统计等                              |
 | 连接池监视 | 监视当前系统数据库连接池状态，可进行分析 SQL 找出系统性能瓶颈 |
 
 ### 用户界面![](https://www.hisher.site/pic/intro/GAME_ADMIN_USER.webp)  

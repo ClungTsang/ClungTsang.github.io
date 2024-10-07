@@ -1,7 +1,7 @@
 # 项目案例展示🌟
 
 ## 3d模型网站：[电脑查看](https://www.3dcarmdl.com/)
-- 3dcarmdl_汽车3D数字模型专业平台
+- 汽车3D数字模型专业平台
 ::: tip 项目亮点
 - 👏 基于Nuxt3 + Vue3 + SEO 搜索引擎优化，网站可以被[百度](https://www.baidu.com/s?wd=3dcarmdl)和[谷歌](https://www.google.com/search?q=3dcarmdl)收录。
 - ⚡️ 优秀的首屏加载速度，减少用户跳出率

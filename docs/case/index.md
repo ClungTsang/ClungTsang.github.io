@@ -48,47 +48,6 @@
 ### [资料列表](https://pursuer.cn/)![](https://www.hisher.site/pic/intro/autoy_list.webp)  
 ### [招聘列表](https://pursuer.cn/)![](https://www.hisher.site/pic/intro/autoy_company.webp)  
 
-## 移民官网：[电脑查看](https://lc.plus)
-- 一款提供移民服务的网页端web平台，具有社区聊天、文章、项目、用户、支付等功能  
-::: tip 项目亮点
-
-- 🔥 按照 Figma 设计稿，实现页面还原，并使用 ElementPlus 等优秀组件库，实现页面交互。
-- 🍍 pinia & pinia-plugin-persistedstate - 全端适配的全局数据管理
-- 😃 根据实际使用场景，导入第三方客服系统和高德地图等组件。
-- 📦 PM2进程守护、Nginx反向代理、gzip压缩开启 - 服务端配置优化。
-- 📥 数据获取、状态管理、元标记帮助程序、路由防护、cookie、错误处理、捆绑分析器。
-:::
-### [官网首页](https://lc.plus)![](https://www.hisher.site/pic/intro/LC_PC_HOME.png)  
-### [项目列表](https://lc.plus/project)![](https://www.hisher.site/pic/intro/LC_PC_PROJECT.png)  
-### [文章列表](https://lc.plus/article)![](https://www.hisher.site/pic/intro/LC_PC_ARTICLE.png)  
-### [关于我们](https://lc.plus/about)![](https://www.hisher.site/pic/intro/LC_PC_ABOUT.png)  
-
-## 移民小程序：[手机查看](https://m.lc.plus)
-- 一款提供移民服务的手机端平台，具有社区聊天、文章、项目、用户、支付等功能  
-::: tip 项目亮点
-- ⚡️ Vue 3、Vite、pnpm、esbuild、TypeScript - 就是快！
-- 🦾 Pritter & ESLint & Stylelint & husky & lint-staged + commitlint - 保证代码质量
-- 🍍 pinia & pinia-plugin-persistedstate - 全端适配的全局数据管理
-:::
-### [程序首页](https://m.lc.plus)![](https://www.hisher.site/pic/intro/LC_M_HOME.png)  
-### [项目列表](https://m.lc.plus/project)![](https://www.hisher.site/pic/intro/LC_M_PROJECT.png)  
-### [文章列表](https://m.lc.plus/article)![](https://www.hisher.site/pic/intro/LC_M_ARTICLE_LIST.png)  
-### [用户界面](https://m.lc.plus/user)![](https://www.hisher.site/pic/intro/LC_M_USER.png)  
-
-## 租手机：支付宝搜索：象小美
-- 一款可以在支付宝上面自由租赁的小程序，基于支付宝原生语言开发，无缝对接官方sdk  
-### 首页![](https://www.hisher.site/pic/intro/XZ_M_HOME.webp)  
-### 分类![](https://www.hisher.site/pic/intro/XZ_M_CATEGORY.webp)  
-### 商品![](https://www.hisher.site/pic/intro/XZ_M_PRODUCT.webp)  
-### 订单确认![](https://www.hisher.site/pic/intro/XZ_M_ORDER_CONFIRM.webp)  
-### 用户界面![](https://www.hisher.site/pic/intro/XZ_M_USER.webp)  
-
-
-## 移动端商城：[手机查看](https://game-853.com/)
-- 港澳台玩家专属的H5游戏点卡充值商城  
-### [首页](https://game-853.com/)![](https://www.hisher.site/pic/intro/GAME_M_HOME.webp)  
-### [点卡](https://game-853.com/)![](https://www.hisher.site/pic/intro/GAME_M_POINT.webp)  
-
 ## 中后台管理系统：自适应手机和电脑布局
 - 拥有完整的文章管理、用户管理、项目管理、评论管理、权限管理、角色管理、菜单管理、日志管理、系统设置等功能。  
 ::: tip 项目亮点

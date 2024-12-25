@@ -21,7 +21,7 @@ export default {
     nav: [
       // { text: "Nuxt3", link: "/nuxt3/index" },
       // { text: "Vue3", link: "/vue/index" },
-      { text: "自我介绍", link: "/intro/index" },
+      // { text: "自我介绍", link: "/intro/index" },
       { text: "案例展示", link: "/case/index" },
     ],
     socialLinks: [{
@@ -50,7 +50,7 @@ export default {
     lastUpdated: true,
     sidebar: {
       "/": [
-        { text: '自我介绍', link: '/intro/index.md' },
+        // { text: '自我介绍', link: '/intro/index.md' },
         { text: '案例展示', link: '/case/index.md' },
         // { text: '个人简历', link: '/intro/jiaen.md' },
         {

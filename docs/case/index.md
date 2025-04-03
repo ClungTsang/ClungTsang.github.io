@@ -18,9 +18,9 @@
 - 🎅 一键切换中英文，兼顾国际化需求，可拓展海外业务。
 - 💻 自动适应手机和电脑的宽度，同时兼容 **苹果手机 、安卓手机、苹果电脑、windows电脑**.
 :::
-### [首页](https://pursuer.cn/)![](https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/CH%20-%20home.png)  
-### [英文首页](https://pursuer.cn/)![](https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/EN%20-%20home.png)  
-### [宫格展示](https://pursuer.cn/case)![](https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/EN%20%20-%20case.png)  
+### [首页](https://pursuer.cn/)![](https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/CH%20-%20home.webp)  
+### [英文首页](https://pursuer.cn/)![](https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/EN%20-%20home.webp)  
+### [宫格展示](https://pursuer.cn/case)![](https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/EN%20%20-%20case.webp)  
 
 ## 企业社区平台：[电脑查看](https://autoxyz.cn/)
 - 智能出行领域从业者社交平台，分享从业经验与查找行业知识
@@ -59,10 +59,10 @@
 - 📦 PM2进程守护、Nginx反向代理、gzip压缩开启 - 服务端配置优化。
 - 📥 数据获取、状态管理、元标记帮助程序、路由防护、cookie、错误处理、捆绑分析器。
 :::
-### [官网首页](https://lc.plus)![](https://www.hisher.site/pic/intro/LC_PC_HOME.png)  
-### [项目列表](https://lc.plus/project)![](https://www.hisher.site/pic/intro/LC_PC_PROJECT.png)  
-### [文章列表](https://lc.plus/article)![](https://www.hisher.site/pic/intro/LC_PC_ARTICLE.png)  
-### [关于我们](https://lc.plus/about)![](https://www.hisher.site/pic/intro/LC_PC_ABOUT.png)  
+### [官网首页](https://lc.plus)![](https://www.hisher.site/pic/intro/LC_PC_HOME.webp)  
+### [项目列表](https://lc.plus/project)![](https://www.hisher.site/pic/intro/LC_PC_PROJECT.webp)  
+### [文章列表](https://lc.plus/article)![](https://www.hisher.site/pic/intro/LC_PC_ARTICLE.webp)  
+### [关于我们](https://lc.plus/about)![](https://www.hisher.site/pic/intro/LC_PC_ABOUT.webp)  
 
 ## 移民小程序：[手机查看](https://m.lc.plus)
 - 一款提供移民服务的手机端平台，具有社区聊天、文章、项目、用户、支付等功能  
@@ -71,10 +71,10 @@
 - 🦾 Pritter & ESLint & Stylelint & husky & lint-staged + commitlint - 保证代码质量
 - 🍍 pinia & pinia-plugin-persistedstate - 全端适配的全局数据管理
 :::
-### [程序首页](https://m.lc.plus)![](https://www.hisher.site/pic/intro/LC_M_HOME.png)  
-### [项目列表](https://m.lc.plus/project)![](https://www.hisher.site/pic/intro/LC_M_PROJECT.png)  
-### [文章列表](https://m.lc.plus/article)![](https://www.hisher.site/pic/intro/LC_M_ARTICLE_LIST.png)  
-### [用户界面](https://m.lc.plus/user)![](https://www.hisher.site/pic/intro/LC_M_USER.png)  
+### [程序首页](https://m.lc.plus)![](https://www.hisher.site/pic/intro/LC_M_HOME.webp)  
+### [项目列表](https://m.lc.plus/project)![](https://www.hisher.site/pic/intro/LC_M_PROJECT.webp)  
+### [文章列表](https://m.lc.plus/article)![](https://www.hisher.site/pic/intro/LC_M_ARTICLE_LIST.webp)  
+### [用户界面](https://m.lc.plus/user)![](https://www.hisher.site/pic/intro/LC_M_USER.webp)  
 
 ## 租手机：支付宝搜索：象小美
 - 一款可以在支付宝上面自由租赁的小程序，基于支付宝原生语言开发，无缝对接官方sdk  

@@ -10,8 +10,8 @@ docker rmi blog
 docker build -t blog .
 
 docker run \
--dp 80:80 \
--dp 443:443 \
+-p 8080:80 \
+-p 8443:443 \
 --name blog \
 -v /etc/nginx/cert:/etc/nginx/cert \
 -d blog:latest

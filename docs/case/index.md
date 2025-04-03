@@ -18,8 +18,9 @@
 - 🎅 一键切换中英文，兼顾国际化需求，可拓展海外业务。
 - 💻 自动适应手机和电脑的宽度，同时兼容 **苹果手机 、安卓手机、苹果电脑、windows电脑**.
 :::
-### [首页](https://pursuer.cn/)![](https://www.hisher.site/pic/intro/pursuer_home.webp)  
-### [宫格展示](https://pursuer.cn/case)![](https://www.hisher.site/pic/intro/pursuer_case.webp)  
+### [首页](https://pursuer.cn/)![](https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/CH%20-%20home.png)  
+### [英文首页](https://pursuer.cn/)![](https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/EN%20-%20home.png)  
+### [宫格展示](https://pursuer.cn/case)![](https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/EN%20%20-%20case.png)  
 
 ## 企业社区平台：[电脑查看](https://autoxyz.cn/)
 - 智能出行领域从业者社交平台，分享从业经验与查找行业知识

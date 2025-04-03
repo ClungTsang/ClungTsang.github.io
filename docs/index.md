@@ -9,7 +9,7 @@ hero:
   text: 个人记事本
   tagline: 抬头吧黑暗过会是晨曦，怀著乐观总有转机
   image:
-    src: https://www.hisher.site/pic/star.webp
+    src: https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/avatar.png
     alt: star
   actions:
     - theme: alt

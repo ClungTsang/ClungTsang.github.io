@@ -21,9 +21,9 @@ hero:
     - theme: alt
       text: Case Studies
       link: /case/
-    - theme: brand
-      text: Contact
-      link: /contact/
+    # - theme: brand
+    #   text: Contact
+    #   link: /contact/
 
 features:
   - icon: 💼

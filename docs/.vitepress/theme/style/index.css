@@ -7,8 +7,7 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(135deg, #1e80ff 0%, #52a7ff 50%, #ff8a00 100%);
 
-  --vp-home-hero-image-background-image:
-    radial-gradient(circle at 20% 20%, rgba(30, 128, 255, 0.35), transparent 60%),
+  --vp-home-hero-image-background-image: radial-gradient(circle at 20% 20%, rgba(30, 128, 255, 0.35), transparent 60%),
     radial-gradient(circle at 80% 70%, rgba(255, 138, 0, 0.25), transparent 55%);
   --vp-home-hero-image-filter: blur(120px);
 }
@@ -22,8 +21,19 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(135deg, #4c9dff 0%, #1e80ff 40%, #ffb347 100%);
 
-  --vp-home-hero-image-background-image:
-    radial-gradient(circle at 20% 20%, rgba(76, 157, 255, 0.35), transparent 60%),
+  --vp-home-hero-image-background-image: radial-gradient(circle at 20% 20%, rgba(76, 157, 255, 0.35), transparent 60%),
     radial-gradient(circle at 80% 70%, rgba(255, 179, 71, 0.25), transparent 55%);
   --vp-home-hero-image-filter: blur(120px);
+}
+
+.contact-business-form {
+  padding: 24px;
+  border-radius: 12px;
+  background-color: var(--el-bg-color);
+  border: 1px solid var(--el-border-color-light);
+}
+
+.dark .contact-business-form {
+  background-color: var(--el-bg-color);
+  border-color: var(--el-border-color-light);
 }

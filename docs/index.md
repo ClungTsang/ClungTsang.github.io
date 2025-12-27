@@ -21,9 +21,9 @@ hero:
     - theme: alt
       text: 成功案例
       link: /case/
-    - theme: brand
-      text: 联络我们
-      link: /contact/
+    # - theme: brand
+    #   text: 联络我们
+    #   link: /contact/
 
 features:
   - icon: 💼

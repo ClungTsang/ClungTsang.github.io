@@ -1,124 +1,54 @@
-# 项目案例展示🌟
+# 成功案例
 
-## 3d模型网站：[电脑查看](https://www.3dcarmdl.com/)
-- 汽车3D数字模型专业平台
-::: tip 项目亮点
-- 👏 基于Nuxt3 + Vue3 + SEO 搜索引擎优化，网站可以被[百度](https://www.baidu.com/s?wd=3dcarmdl)和[谷歌](https://www.google.com/search?q=3dcarmdl)收录。
-- ⚡️ 优秀的首屏加载速度，减少用户跳出率
-- 💻 图片占位符能够极大提升用户体验  
-:::
-### [首页](https://www.3dcarmdl.com/)![](https://www.hisher.site/pic/intro/3dcarmdl_home.webp)  
-### [详情](https://www.3dcarmdl.com/model/detail/3)![](https://www.hisher.site/pic/intro/3dcarmdl_detail.webp)  
-### [搜索分类](https://www.3dcarmdl.com/search?searchValue=&classifyId=4850)![](https://www.hisher.site/pic/intro/3dcarmdl_cate.webp)  
+以下为部分典型服务场景，展示智恩创科科技（深圳）有限公司在 IT 服务、RPA 自动化与企业网站建置领域的实践方向。为尊重客户隐私，实际客户名称与细节仅会在一对一沟通时提供。
 
-## 企业官网：[电脑查看](https://pursuer.cn/)
-- 全球知名的用户体验设计公司，专注智能出行领域用户体验设计与咨询
-::: tip 项目亮点
-- 👏 基于Nuxt3 + Vue3 + SEO 搜索引擎优化，网站可以被[百度](https://www.baidu.com/s?wd=%E6%99%AE%E4%BF%AE)和[谷歌](https://www.google.com/search?q=%E6%99%AE%E4%BF%AE)收录。
-- 🎅 一键切换中英文，兼顾国际化需求，可拓展海外业务。
-- 💻 自动适应手机和电脑的宽度，同时兼容 **苹果手机 、安卓手机、苹果电脑、windows电脑**.
-:::
-### [首页](https://pursuer.cn/)![](https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/CH%20-%20home.webp)  
-### [英文首页](https://pursuer.cn/)![](https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/EN%20-%20home.webp)  
-### [宫格展示](https://pursuer.cn/case)![](https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/EN%20%20-%20case.webp)  
+[[toc]]
 
-## 企业社区平台：[电脑查看](https://autoxyz.cn/)
-- 智能出行领域从业者社交平台，分享从业经验与查找行业知识
-::: tip 项目亮点
-- 👏 基于Nuxt3 + Vue3 + SEO 搜索引擎优化，网站可以被[百度](https://www.baidu.com/s?wd=autoy)和[谷歌](https://www.google.com/search?q=autoy)收录。
-- ✨ 利用SSR服务器端渲染，优化图像，配置服务端压缩，使访问页面速度提高**5倍**以上。
-- 💪 优秀的加载动画、让用户体验更佳，提升公司形象和气质。
-- 💻 建立在现代规范化之上，消除跨浏览器的不一致，包括最新 Chrome、Firefox 和 Safari。
-:::
-### [社区首页](https://pursuer.cn/)![](https://www.hisher.site/pic/intro/autoxyz_home.webp)  
-### [视频内容](https://www.autoxyz.cn/hmi/detail-13078)![](https://www.hisher.site/pic/intro/autoxyz_video.webp)  
-### [招聘列表](https://www.autoxyz.cn/recruit)![](https://www.hisher.site/pic/intro/autoxyz_hire.webp)  
-### [设计师列表](https://www.autoxyz.cn/carfungus)![](https://www.hisher.site/pic/intro/autoxyz_designer.webp)  
+> [!TIP]
+> 建议先快速浏览场景总览，确认与你当前需求最贴近的方向，再与我们进一步沟通具体细节。
 
+## RPA 与自动化场景概览
 
-## 社区平台小程序
-- 一款专注设计领域手机端社区平台，具备招聘发布、视频文章、资料分享、线上支付等功能  
-::: tip 项目亮点
-- 🎯 Vue3、Vite4、ES6、pnpm - 现阶段最优秀的前端开发框架。
-- ⚡️ 可快速部署在网页端、小程序、App，微信、支付宝、抖音等平台。
-- 🎨 UnoCSS - 高性能且极具灵活性的即时原子化 CSS 引擎
-- 🌈 Layout、Flex、Grid、Animation、TailwindCSS - 按需调用优秀的组件库、实现快速迭代。
-:::
-### [首页](https://pursuer.cn/)![](https://www.hisher.site/pic/intro/autoy_home.webp)  
-### [文章内容](https://pursuer.cn/)![](https://www.hisher.site/pic/intro/autoy_article.webp)  
-### [资料列表](https://pursuer.cn/)![](https://www.hisher.site/pic/intro/autoy_list.webp)  
-### [招聘列表](https://pursuer.cn/)![](https://www.hisher.site/pic/intro/autoy_company.webp)  
+我们基于 **来也科技 RPA 产品**，结合 Spring 与 Vue 技术栈，为以下类型场景设计并落地稳定可维护的自动化方案：
 
-## 移民官网：[电脑查看](https://lc.plus)
-- 一款提供移民服务的网页端web平台，具有社区聊天、文章、项目、用户、支付等功能  
-::: tip 项目亮点
+- 跨境电商：订单同步、库存更新、物流节点追踪、广告与报表整理
+- 独立站：多渠道数据整合、用户与订单汇总、营销活动成效分析
+- 财务 RPA：多帐套对帐、凭证生成、报表自动汇整与排程推送
+- 微信 / 支付宝小程序：交易对帐、营运数据整理与监控
 
-- 🔥 按照 Figma 设计稿，实现页面还原，并使用 ElementPlus 等优秀组件库，实现页面交互。
-- 🍍 pinia & pinia-plugin-persistedstate - 全端适配的全局数据管理
-- 😃 根据实际使用场景，导入第三方客服系统和高德地图等组件。
-- 📦 PM2进程守护、Nginx反向代理、gzip压缩开启 - 服务端配置优化。
-- 📥 数据获取、状态管理、元标记帮助程序、路由防护、cookie、错误处理、捆绑分析器。
-:::
-### [官网首页](https://lc.plus)![](https://www.hisher.site/pic/intro/LC_PC_HOME.webp)  
-### [项目列表](https://lc.plus/project)![](https://www.hisher.site/pic/intro/LC_PC_PROJECT.webp)  
-### [文章列表](https://lc.plus/article)![](https://www.hisher.site/pic/intro/LC_PC_ARTICLE.webp)  
-### [关于我们](https://lc.plus/about)![](https://www.hisher.site/pic/intro/LC_PC_ABOUT.webp)  
-
-## 移民小程序：[手机查看](https://m.lc.plus)
-- 一款提供移民服务的手机端平台，具有社区聊天、文章、项目、用户、支付等功能  
-::: tip 项目亮点
-- ⚡️ Vue 3、Vite、pnpm、esbuild、TypeScript - 就是快！
-- 🦾 Pritter & ESLint & Stylelint & husky & lint-staged + commitlint - 保证代码质量
-- 🍍 pinia & pinia-plugin-persistedstate - 全端适配的全局数据管理
-:::
-### [程序首页](https://m.lc.plus)![](https://www.hisher.site/pic/intro/LC_M_HOME.webp)  
-### [项目列表](https://m.lc.plus/project)![](https://www.hisher.site/pic/intro/LC_M_PROJECT.webp)  
-### [文章列表](https://m.lc.plus/article)![](https://www.hisher.site/pic/intro/LC_M_ARTICLE_LIST.webp)  
-### [用户界面](https://m.lc.plus/user)![](https://www.hisher.site/pic/intro/LC_M_USER.webp)  
-
-## 租手机：支付宝搜索：象小美
-- 一款可以在支付宝上面自由租赁的小程序，基于支付宝原生语言开发，无缝对接官方sdk  
-### 首页![](https://www.hisher.site/pic/intro/XZ_M_HOME.webp)  
-### 分类![](https://www.hisher.site/pic/intro/XZ_M_CATEGORY.webp)  
-### 商品![](https://www.hisher.site/pic/intro/XZ_M_PRODUCT.webp)  
-### 订单确认![](https://www.hisher.site/pic/intro/XZ_M_ORDER_CONFIRM.webp)  
-### 用户界面![](https://www.hisher.site/pic/intro/XZ_M_USER.webp)  
-
-
-## 移动端商城：[手机查看](https://game-853.com/)
-- 港澳台玩家专属的H5游戏点卡充值商城  
-### [首页](https://game-853.com/)![](https://www.hisher.site/pic/intro/GAME_M_HOME.webp)  
-### [点卡](https://game-853.com/)![](https://www.hisher.site/pic/intro/GAME_M_POINT.webp)  
-
-## 中后台管理系统：自适应手机和电脑布局
-- 拥有完整的文章管理、用户管理、项目管理、评论管理、权限管理、角色管理、菜单管理、日志管理、系统设置等功能。  
-::: tip 项目亮点
-- ⚡️ 完全采用 ECMAScript 模块（ESM）规范来编写和组织代码，
-- 🔑 采用目前最常用的 RBAC 基于角色的权限控制（ 用户 -> 角色 -> 权限 ），可配置各种粒度的权限
-- 🔩 高度可配置的主题以及暗黑主题适配，并且提供左侧、顶部、综合这三种菜单布局模式
-- 🔥 基于Vue3、Vite、Element-Plus、TypeScript、Pinia、Tailwindcss等最新项目亮点开发
-- 🍭 Wangeditor富文本编辑器、dayjs、echarts - 丰富的第三方库
+::: info 典型服务场景
+- 降低高频重复操作的人力投入
+- 降低人工录入错误带来的风险
+- 让业务团队把时间花在「决策与创造价值」上，而不是机械化操作
 :::
 
-### 系统功能
-| 功能       | 描述                                                          |
-| ---------- | ------------------------------------------------------------- |
-| 用户管理   | 用户是系统操作者，该功能主要完成系统用户配置                  |
-| 部门管理   | 配置系统组织机构（公司、部门、小组），树结构展现支持数据权限  |
-| 岗位管理   | 配置系统用户所属担任职务                                      |
-| 菜单管理   | 配置系统菜单、操作权限、按钮权限标识等，本地缓存提供性能      |
-| 角色管理   | 角色菜单权限分配、设置角色按机构进行数据范围权划分            |
-| 参数管理   | 对系统动态配置常用参数                                        |
-| 通知公告   | 系统通知公告信息发布维护                                      |
-| 操作日志   | 系统正常操作日志记录和查询；系统异常信息日志记录和查询        |
-| 登录日志   | 系统登录日志记录查询包含登录异常                              |
-| 在线用户   | 当前系统中活跃用户状态监控                                    |
-| 系统接口   | 根据业务代码自动生成相关的 api 接口文档                       |
-| 服务监控   | 监视当前系统 CPU、内存、磁盘、堆栈等相关信息                  |
-| 缓存监控   | 对系统的缓存信息查询，命令统计等                              |
-| 连接池监视 | 监视当前系统数据库连接池状态，可进行分析 SQL 找出系统性能瓶颈 |
+## IT 与官网建置方向概览
 
-### 用户界面![](https://www.hisher.site/pic/intro/GAME_ADMIN_USER.webp)  
-### 角色界面![](https://www.hisher.site/pic/intro/GAME_ADMIN_ROLE.webp)  
-### 文章列表![](https://www.hisher.site/pic/intro/LC_ADMIN_ARTICLE_LIST.webp)  
-### 发布文章![](https://www.hisher.site/pic/intro/LC_ADMIN_POST_ARTICLE.webp)  
+在企业官网与线上系统方面，我们主要服务方向包括：
+
+- 企业官网与品牌网站：多语、SEO 友好、行动装置优化
+- 企业社群与内容平台：文章 / 资源中心、会员系统、互动模组
+- 线上服务与中台系统：客户入口、业务受理、内部审批与资料查询
+
+> 这些专案多以「设计 + 开发 + 部署 + 运维」一站式形式交付，可依企业所需调整模组与功能范围。
+
+## 如何匹配到你的情境
+
+每家企业的实际情境都不同，因此我们更倾向于：
+
+1. 先了解你目前的业务流程与痛点（如人工操作步骤、错误点、瓶颈环节）
+2. 再从既有案例中挑选**最接近的 2–3 个方向**与你一同讨论
+3. 最终形成一份针对你公司的**专属落地方案与路线图**
+
+> [!NOTE]
+> 出于保密与合约要求，我们不会在网站上公开列出所有客户名称与系统截图，但可以在签署保密协议（NDA）后，于会议中展示更完整的案例细节。
+
+## 下一步：与我们讨论你的需求
+
+如果你希望根据自身情况获得更具体的案例与建议，欢迎前往「联络我们」页面，简单描述：
+
+- 你的行业与所在城市
+- 希望优化或自动化的主要流程
+- 目前已经在使用的系统（如 ERP / CRM / OA / 自建系统 等）
+
+我们会根据以上资讯，准备对应案例与初步方案，安排后续的一对一沟通。

@@ -12,15 +12,20 @@ const formModel = reactive({
   company: '',
   email: '',
   phone: '',
-  type: '商务咨询',
+  type: 0,
   message: ''
 })
 
 const submitting = ref(false)
 
+const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+
 const rules = {
   name: [{ required: true, message: '请填写称呼', trigger: 'blur' }],
-  email: [{ required: true, message: '请填写邮箱', trigger: 'blur' }],
+  email: [
+    { required: true, message: '请填写邮箱', trigger: 'blur' },
+    { pattern: emailPattern, message: '邮箱格式不正确', trigger: ['blur', 'change'] }
+  ],
   message: [{ required: true, message: '请简单描述需求', trigger: 'blur' }]
 }
 
@@ -30,14 +35,24 @@ const handleSubmit = () => {
     if (!valid) return
     submitting.value = true
     try {
-      const subject = encodeURIComponent('网站表单：商务合作咨询')
-      const body = encodeURIComponent(
-        `称呼：${formModel.name}\n公司：${formModel.company}\n邮箱：${formModel.email}\n电话：${formModel.phone}\n类型：${formModel.type}\n\n需求描述：\n${formModel.message}`
-      )
-      if (typeof window !== 'undefined') {
-        window.location.href = `mailto:shawn1440982358@gmail.com?subject=${subject}&body=${body}`
+      const response = await fetch('/api/cooperation/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          company_name: formModel.company,
+          contact_person: formModel.name,
+          contact_info: formModel.phone,
+          email: formModel.email,
+          contact_type: formModel.type,
+          cooperation_content: formModel.message
+        })
+      })
+      if (!response.ok) {
+        throw new Error('Request failed')
       }
-      ElMessage.success('已打开邮件客户端，请确认后发送')
+      ElMessage.success('提交成功，我们会尽快与您联系')
     } catch (e) {
       ElMessage.error('提交时出现异常，请稍后再试或直接通过邮箱联系')
     } finally {
@@ -79,10 +94,10 @@ const handleSubmit = () => {
     </el-form-item>
     <el-form-item label="类型">
       <el-select v-model="formModel.type" placeholder="请选择需求类型">
-        <el-option label="商务咨询" value="商务咨询" />
-        <el-option label="技术合作" value="技术合作" />
-        <el-option label="RPA 项目" value="RPA 项目" />
-        <el-option label="其他" value="其他" />
+        <el-option label="商务咨询" :value="0" />
+        <el-option label="技术合作" :value="1" />
+        <el-option label="RPA 项目" :value="2" />
+        <el-option label="其他" :value="3" />
       </el-select>
     </el-form-item>
     <el-form-item label="需求说明" prop="message">

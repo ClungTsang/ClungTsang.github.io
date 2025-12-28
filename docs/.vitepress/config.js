@@ -96,6 +96,16 @@ export default {
       }
     }
   },
+  vite: {
+    server: {
+      proxy: {
+        '/api': {
+          target: 'http://localhost:3001',
+          changeOrigin: true
+        }
+      }
+    }
+  },
   themeConfig: {
     sitemap: {
       hostname: 'https://innogrid.asia'

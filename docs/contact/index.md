@@ -11,7 +11,7 @@ title: 联系我们
 ## 商务合作咨询 🚀
 
 <div class="contact-cta">
-  <a href="https://bytedance.feishu.cn/base/NqmEbXkTZaNFqNsaJxrcUyVunOh?table=tblnHfnww1BnAzgs&view=vewwA6777F" class="contact-btn-primary" target="_blank">
+  <a href="https://zxppbtiymin.feishu.cn/base/NqmEbXkTZaNFqNsaJxrcUyVunOh?table=tblnHfnww1BnAzgs&view=vewwA6777F" class="contact-btn-primary" target="_blank">
     📋 填写商务合作表单（飞书）
   </a>
   <p class="contact-hint">点击跳转飞书表单，填写基本信息与需求，我们会在 1 个工作日内回复。</p>

@@ -26,7 +26,6 @@ export default {
           next: '下一篇→'
         },
         lastUpdatedText: '上次更新时间',
-        sidebar: false,
       }
     },
     en: {
@@ -49,7 +48,6 @@ export default {
           next: 'Next →'
         },
         lastUpdatedText: 'Last updated',
-        sidebar: false
       }
     },
     'zh-TW': {
@@ -72,9 +70,6 @@ export default {
           next: '下一篇→'
         },
         lastUpdatedText: '上次更新時間',
-        sidebar: {
-          '/zh-TW/': [
-            { text: '關於我們', link: '/zh-TW/about/' },
             { text: '服務方案', link: '/zh-TW/services/' },
             { text: '團隊介绍', link: '/zh-TW/team/' },
             { text: '聯絡我們', link: '/zh-TW/contact/' }

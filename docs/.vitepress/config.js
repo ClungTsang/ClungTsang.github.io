@@ -1,7 +1,7 @@
 export default {
   lang: 'en-ZH',
   title: '智恩科创',
-  description: 'IT Services and RPA Automation Partner in the Greater Bay Area',
+  description: 'IT Services and RPA Automation Partner',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
@@ -11,8 +11,8 @@ export default {
       lang: 'zh-CN',
       themeConfig: {
         siteTitle: '智恩创科科技',
-        title: '智恩创科科技（深圳）有限公司 · AI 大模型 · GEO · 全栈开发',
-        description: '智恩创科科技（深圳）有限公司，专注 AI 大模型应用、GEO 品牌监测与全栈开发。旗舰产品 OmniGEO 帮助品牌在 ChatGPT、Perplexity 等 AI 平台提升可见性。',
+        title: '智恩创科科技 · AI 大模型 · GEO · 全栈开发',
+        description: '智恩创科科技，专注 AI 大模型应用、GEO 品牌监测与全栈开发。',
         nav: [
           { text: '产品', link: '/products/omnigeo', activeMatch: '/products/' },
           { text: '关于我们', link: '/about/' },
@@ -20,97 +20,40 @@ export default {
           { text: '团队', link: '/team/' },
           { text: '联系我们', link: '/contact/' }
         ],
-        outlineTitle: '章节导航',
-        docFooter: {
-          prev: '←上一篇',
-          next: '下一篇→'
-        },
+        docFooter: { prev: '←上一篇', next: '下一篇→' },
         lastUpdatedText: '上次更新时间',
       }
     },
     en: {
-      label: 'English',
-      lang: 'en',
-      link: '/en/',
+      label: 'English', lang: 'en', link: '/en/',
       themeConfig: {
         siteTitle: 'Zhi En Chuangke Tech',
-        title: 'Zhi En Chuangke Technology (Shenzhen) · IT Services & RPA · GBA',
-        description: 'Zhi En Chuangke Technology (Shenzhen) focuses on IT services and RPA automation in the Greater Bay Area, using Spring and Vue stacks to deliver stable digital solutions for cross-border e-commerce, standalone sites, finance and mini programs.',
         nav: [
-          { text: 'About Us', link: '/en/about/' },
-          { text: 'Services', link: '/en/services/' },
-          { text: 'Team', link: '/en/team/' },
-          { text: 'Contact Us', link: '/en/contact/' }
+          { text: 'About', link: '/en/about/' },
+          { text: 'Cases', link: '/en/case/' },
+          { text: 'Contact', link: '/en/contact/' }
         ],
-        outlineTitle: 'On this page',
-        docFooter: {
-          prev: '← Previous',
-          next: 'Next →'
-        },
-        lastUpdatedText: 'Last updated',
       }
     },
     'zh-TW': {
-      label: '繁體中文',
-      lang: 'zh-TW',
-      link: '/zh-TW/',
+      label: '繁體中文', lang: 'zh-TW', link: '/zh-TW/',
       themeConfig: {
         siteTitle: '智恩創科科技',
-        title: '智恩創科科技（深圳）有限公司 · IT服務與 RPA 自動化 · 大灣區',
-        description: '智恩創科科技（深圳）有限公司，專注大灣區企業 IT 服務與 RPA 自動化落地，基於 Spring 全家桶與 Vue 技術棧，為跨境電商、獨立站、財務與小程序等場景提供穩定可靠的數位化解決方案。',
         nav: [
           { text: '關於我們', link: '/zh-TW/about/' },
-          { text: '服務方案', link: '/zh-TW/services/' },
-          { text: '團隊介绍', link: '/zh-TW/team/' },
+          { text: '案例', link: '/zh-TW/case/' },
           { text: '聯絡我們', link: '/zh-TW/contact/' }
         ],
-        outlineTitle: '章節導航',
-        docFooter: {
-          prev: '←上一篇',
-          next: '下一篇→'
-        },
-        lastUpdatedText: '上次更新時間',
-            { text: '服務方案', link: '/zh-TW/services/' },
-            { text: '團隊介绍', link: '/zh-TW/team/' },
-            { text: '聯絡我們', link: '/zh-TW/contact/' }
-          ]
-        }
-      }
-    }
-  },
-  vite: {
-    server: {
-      proxy: {
-        '/api': {
-          target: 'http://localhost:3001',
-          changeOrigin: true
-        }
       }
     }
   },
   themeConfig: {
-    sitemap: {
-      hostname: 'https://innogrid.asia'
-    },
+    sitemap: { hostname: 'https://innogrid.asia' },
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2026-present Zhi En Chuangke Technology'
     },
-    search: {
-      provider: 'local'
-    },
-    // socialLinks: [
-    //   {
-    //     icon: 'github',
-    //     link: 'https://github.com/ClungTsang'
-    //   },
-    //   {
-    //     icon: {
-    //       svg: '<svg t="1714848421037" class="icon" viewBox="0 0 1316 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1530" width="200" height="200"><path d="M643.181714 247.698286l154.916572-123.172572L643.181714 0.256 643.072 0l-154.660571 124.269714 154.660571 123.245715 0.109714 0.182857z m0 388.461714h0.109715l399.579428-315.245714-108.361143-87.04-291.218285 229.888h-0.146286l-0.109714 0.146285L351.817143 234.093714l-108.251429 87.04 399.433143 315.136 0.146286-0.146285z m-0.146285 215.552l0.146285-0.146286 534.893715-422.034285 108.397714 87.04-243.309714 192L643.145143 1024 10.422857 525.056 0 516.754286l108.251429-86.893715L643.035429 851.748571z" fill="#1E80FF" p-id="1531"></path></svg>'
-    //     },
-    //     link: 'https://juejin.cn/user/289926802319896'
-    //   }
-    // ],
+    search: { provider: 'local' },
     outline: false,
     lastUpdated: true,
     i18nRouting: true

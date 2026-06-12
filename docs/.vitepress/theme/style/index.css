@@ -1,171 +1,85 @@
 /* ========================================
-   Zhi En Chuangke Tech — Official Website Theme
-   Clean, modern, product-focused design
+   Unified Corporate Theme
+   Homepage + all sub-pages
    ======================================== */
 
 :root {
-  /* Brand */
   --vp-c-brand-1: #1a56db;
   --vp-c-brand-2: #1e40af;
   --vp-c-brand-3: #1e3a8a;
-  --vp-c-brand-soft: rgba(26, 86, 219, 0.06);
+  --vp-c-brand-soft: #eef2ff;
 
-  /* Typography */
-  --vp-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans SC', sans-serif;
-  --vp-layout-max-width: 1280px;
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-soft: #f8fafc;
+  --vp-c-bg-alt: #f1f5f9;
+  --vp-c-bg-elv: #ffffff;
 
-  /* Hero */
+  --vp-c-text-1: #0f172a;
+  --vp-c-text-2: #64748b;
+
+  --vp-c-divider: #e5e7eb;
+  --vp-c-border: #e5e7eb;
+
+  --vp-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans SC', sans-serif;
+
+  --vp-layout-max-width: 1400px;
+  --vp-sidebar-width: 0px;
+
   --vp-home-hero-name-color: #1a56db;
   --vp-home-hero-name-background: none;
-  --vp-home-hero-image-background-image: none;
-  --vp-home-hero-image-filter: none;
 }
 
 .dark {
   --vp-c-brand-1: #3b82f6;
   --vp-c-brand-2: #60a5fa;
-  --vp-c-brand-3: #93bbfd;
-  --vp-c-brand-soft: rgba(59, 130, 246, 0.12);
-  --vp-home-hero-name-color: #60a5fa;
+  --vp-c-brand-soft: #1e3a5f;
+  --vp-c-bg: #0f172a;
+  --vp-c-bg-soft: #1e293b;
+  --vp-c-bg-alt: #334155;
+  --vp-c-bg-elv: #1e293b;
+  --vp-c-text-1: #f1f5f9;
+  --vp-c-text-2: #94a3b8;
+  --vp-c-divider: #334155;
+  --vp-c-border: #334155;
 }
 
-/* ===== Hero Section ===== */
-.VPHero {
-  padding: 4rem 0 3rem;
-}
-.VPHero .container {
-  align-items: center;
-}
-.VPHero .image-container {
-  display: flex;
-  justify-content: center;
-}
-.VPHero .image-bg {
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 8px 40px rgba(0,0,0,0.12);
-  max-width: 500px;
-}
-.VPHero .name {
-  font-size: 2.8rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-}
-.VPHero .text {
-  font-size: 1.15rem;
-  font-weight: 500;
-  max-width: 520px;
-  opacity: 0.85;
-  line-height: 1.6;
-}
-.VPHero .tagline {
-  font-size: 1rem;
-  max-width: 500px;
-  line-height: 1.7;
-}
-
-/* ===== Feature Cards ===== */
-.VPFeature {
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 10px;
-  padding: 1.5rem;
-  transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
-}
-.VPFeature:hover {
-  border-color: var(--vp-c-brand-1);
-  box-shadow: 0 4px 20px rgba(26, 86, 219, 0.08);
-  transform: translateY(-2px);
-}
-.VPFeature .icon {
-  font-size: 1.6rem;
-  margin-bottom: 0.5rem;
-}
-.VPFeature .title {
-  font-size: 1.05rem;
-  font-weight: 700;
-}
-.VPFeature .details {
-  font-size: 0.88rem;
-  line-height: 1.6;
-}
-
-/* ===== Navbar ===== */
+/* Navbar */
 .VPNav {
-  border-bottom: 1px solid var(--vp-c-divider);
+  border-bottom: 1px solid var(--vp-c-divider) !important;
+  background: var(--vp-c-bg) !important;
 }
-.VPNavBarTitle .title {
-  font-weight: 700;
-  font-size: 1.1rem;
-}
+.VPNavBar.has-sidebar { border-bottom: 1px solid var(--vp-c-divider) !important; }
+.VPNavBarTitle .title { font-weight: 700; font-size: 1.05rem; }
 
-/* ===== Sidebar ===== */
-.VPSidebar {
-  border-right: 1px solid var(--vp-c-divider);
-}
-.VPSidebarItem .link.active {
-  font-weight: 600;
-}
+/* Hide sidebar */
+.VPSidebar { display: none !important; }
+.VPContent.has-sidebar { padding-left: 0 !important; }
+.Layout.has-sidebar .VPContent { padding-left: 0 !important; }
 
-/* ===== Content Typography ===== */
-.vp-doc h1 {
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  font-size: 2.2rem;
-  margin-top: 1rem;
-}
-.vp-doc h2 {
-  font-weight: 700;
-  font-size: 1.5rem;
-  border-bottom: 1px solid var(--vp-c-divider);
-  padding-bottom: 0.4rem;
-  margin-top: 2.5rem;
-}
-.vp-doc h3 {
-  font-weight: 600;
-  font-size: 1.15rem;
-}
+/* Widen content */
+.VPDoc { max-width: 1000px !important; margin: 0 auto !important; padding: 2rem 2rem 4rem !important; }
+.VPDoc .container { max-width: 100% !important; }
+.VPContent { padding-top: 0 !important; }
 
-/* ===== Tables ===== */
-.vp-doc table {
-  display: table;
-  width: 100%;
-  font-size: 0.9rem;
-}
-.vp-doc th {
-  background: var(--vp-c-bg-soft);
-  font-weight: 600;
-}
+/* Typography */
+.vp-doc h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin-top: 0; }
+.vp-doc h2 { font-size: 1.5rem; font-weight: 700; border-bottom: 1px solid var(--vp-c-divider); padding-bottom: 0.4rem; margin-top: 2.5rem; }
+.vp-doc h3 { font-size: 1.15rem; font-weight: 600; }
+.vp-doc p { line-height: 1.75; }
+.vp-doc th { background: var(--vp-c-bg-soft); font-weight: 600; font-size: 0.9rem; }
+.vp-doc table { width: 100%; }
 
-/* ===== Tip/Info Blocks ===== */
-.vp-doc .tip,
-.vp-doc .info {
-  border-radius: 6px;
-  border-left-width: 3px;
-}
+/* Cards / Info blocks */
+.vp-doc .info, .vp-doc .tip { border-radius: 6px; border-left-width: 3px; }
 
-/* ===== Footer ===== */
-.VPFooter {
-  border-top: 1px solid var(--vp-c-divider);
-  padding: 2rem 0;
-}
+/* Footer */
+.VPFooter { border-top: 1px solid var(--vp-c-divider); padding: 1.5rem 0; }
 
-/* ===== Action Buttons ===== */
-.VPHero .actions .VPButton.brand {
-  background: var(--vp-c-brand-1);
-  border-color: var(--vp-c-brand-1);
-  color: #fff;
-  font-weight: 600;
-  padding: 0 28px;
-  border-radius: 8px;
-}
-.VPHero .actions .VPButton.alt {
-  border-radius: 8px;
-  font-weight: 500;
-}
+/* Remove doc-only elements */
+.VPDoc .header-anchor { opacity: 0.3; }
 
-/* ===== Responsive ===== */
+/* Responsive */
 @media (max-width: 768px) {
-  .VPHero .name { font-size: 1.8rem; }
-  .VPHero .text { font-size: 1rem; }
-  .VPFeature { padding: 1.2rem; }
+  .VPDoc { padding: 1.5rem 1rem 3rem !important; }
+  .vp-doc h1 { font-size: 1.5rem; }
 }

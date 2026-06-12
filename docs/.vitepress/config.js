@@ -26,20 +26,7 @@ export default {
           next: '下一篇→'
         },
         lastUpdatedText: '上次更新时间',
-        sidebar: {
-          '/': [
-            { text: '产品', items: [
-              { text: 'OmniGEO — GEO 品牌监测', link: '/products/omnigeo' },
-              { text: 'CTN Express — 跨境电商', link: '/products/ctn' },
-              { text: 'JP Recycle — 日本买取', link: '/products/jp-recycle' },
-              { text: '智能排课管理系统', link: '/products/course' },
-            ]},
-            { text: '关于我们', link: '/about/' },
-            { text: '团队介绍', link: '/team/' },
-            { text: '客户案例', link: '/case/' },
-            { text: '联系我们', link: '/contact/' }
-          ]
-        }
+        sidebar: false,
       }
     },
     en: {
@@ -62,14 +49,7 @@ export default {
           next: 'Next →'
         },
         lastUpdatedText: 'Last updated',
-        sidebar: {
-          '/en/': [
-            { text: 'About Us', link: '/en/about/' },
-            { text: 'Services & Solutions', link: '/en/services/' },
-            { text: 'Team', link: '/en/team/' },
-            { text: 'Contact Us', link: '/en/contact/' }
-          ]
-        }
+        sidebar: false
       }
     },
     'zh-TW': {
@@ -136,7 +116,7 @@ export default {
     //     link: 'https://juejin.cn/user/289926802319896'
     //   }
     // ],
-    outline: 'deep',
+    outline: false,
     lastUpdated: true,
     i18nRouting: true
   }

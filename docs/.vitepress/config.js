@@ -11,12 +11,13 @@ export default {
       lang: 'zh-CN',
       themeConfig: {
         siteTitle: '智恩创科科技',
-        title: '智恩创科科技（深圳）有限公司 · IT服务与 RPA 自动化 · 大湾区',
-        description: '智恩创科科技（深圳）有限公司，专注大湾区企业 IT 服务与 RPA 自动化落地，基于 Spring 全家桶与 Vue 技术栈，为跨境电商、独立站、财务与小程序等场景提供稳定可靠的数字化解决方案。',
+        title: '智恩创科科技（深圳）有限公司 · AI 大模型 · GEO · 全栈开发',
+        description: '智恩创科科技（深圳）有限公司，专注 AI 大模型应用、GEO 品牌监测与全栈开发。旗舰产品 OmniGEO 帮助品牌在 ChatGPT、Perplexity 等 AI 平台提升可见性。',
         nav: [
+          { text: '产品', link: '/products/omnigeo', activeMatch: '/products/' },
           { text: '关于我们', link: '/about/' },
-          { text: '服务方案', link: '/services/' },
-          { text: '团队介绍', link: '/team/' },
+          { text: '案例', link: '/case/' },
+          { text: '团队', link: '/team/' },
           { text: '联系我们', link: '/contact/' }
         ],
         outlineTitle: '章节导航',
@@ -27,9 +28,15 @@ export default {
         lastUpdatedText: '上次更新时间',
         sidebar: {
           '/': [
+            { text: '产品', items: [
+              { text: 'OmniGEO — GEO 品牌监测', link: '/products/omnigeo' },
+              { text: 'CTN Express — 跨境电商', link: '/products/ctn' },
+              { text: 'JP Recycle — 日本买取', link: '/products/jp-recycle' },
+              { text: '智能排课管理系统', link: '/products/course' },
+            ]},
             { text: '关于我们', link: '/about/' },
-            { text: '服务方案', link: '/services/' },
             { text: '团队介绍', link: '/team/' },
+            { text: '客户案例', link: '/case/' },
             { text: '联系我们', link: '/contact/' }
           ]
         }

@@ -1,10 +1,10 @@
 /* ========================================
-   Zhi En Chuangke Tech - Corporate Theme
-   Clean, professional, consulting-firm style
+   Zhi En Chuangke Tech — Official Website Theme
+   Clean, modern, product-focused design
    ======================================== */
 
 :root {
-  /* Brand colors — single blue, no gradients */
+  /* Brand */
   --vp-c-brand-1: #1a56db;
   --vp-c-brand-2: #1e40af;
   --vp-c-brand-3: #1e3a8a;
@@ -12,87 +12,114 @@
 
   /* Typography */
   --vp-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans SC', sans-serif;
+  --vp-layout-max-width: 1280px;
 
-  /* Hero section — no gradient, clean */
+  /* Hero */
   --vp-home-hero-name-color: #1a56db;
   --vp-home-hero-name-background: none;
-
   --vp-home-hero-image-background-image: none;
   --vp-home-hero-image-filter: none;
-
-  /* Spacing */
-  --vp-layout-max-width: 1280px;
 }
 
-/* Dark mode */
 .dark {
   --vp-c-brand-1: #3b82f6;
   --vp-c-brand-2: #60a5fa;
   --vp-c-brand-3: #93bbfd;
   --vp-c-brand-soft: rgba(59, 130, 246, 0.12);
-
   --vp-home-hero-name-color: #60a5fa;
-  --vp-home-hero-name-background: none;
-  --vp-home-hero-image-background-image: none;
 }
 
-/* ===== Hero Section — Clean Corporate ===== */
+/* ===== Hero Section ===== */
+.VPHero {
+  padding: 4rem 0 3rem;
+}
+.VPHero .container {
+  align-items: center;
+}
+.VPHero .image-container {
+  display: flex;
+  justify-content: center;
+}
+.VPHero .image-bg {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.12);
+  max-width: 500px;
+}
 .VPHero .name {
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
 }
-
 .VPHero .text {
+  font-size: 1.15rem;
   font-weight: 500;
-  font-size: 1.35rem;
-  max-width: 600px;
-  opacity: 0.8;
+  max-width: 520px;
+  opacity: 0.85;
+  line-height: 1.6;
 }
-
 .VPHero .tagline {
-  font-size: 1.05rem;
-  max-width: 560px;
+  font-size: 1rem;
+  max-width: 500px;
   line-height: 1.7;
 }
 
-/* ===== Feature Cards — Consulting Style ===== */
+/* ===== Feature Cards ===== */
 .VPFeature {
   border: 1px solid var(--vp-c-divider);
-  border-radius: 6px;
-  background: var(--vp-c-bg-soft);
-  transition: border-color 0.2s, box-shadow 0.2s;
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
 }
-
 .VPFeature:hover {
   border-color: var(--vp-c-brand-1);
-  box-shadow: 0 2px 12px rgba(26, 86, 219, 0.08);
+  box-shadow: 0 4px 20px rgba(26, 86, 219, 0.08);
+  transform: translateY(-2px);
+}
+.VPFeature .icon {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+.VPFeature .title {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+.VPFeature .details {
+  font-size: 0.88rem;
+  line-height: 1.6;
 }
 
 /* ===== Navbar ===== */
 .VPNav {
   border-bottom: 1px solid var(--vp-c-divider);
 }
+.VPNavBarTitle .title {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
 
 /* ===== Sidebar ===== */
 .VPSidebar {
   border-right: 1px solid var(--vp-c-divider);
 }
+.VPSidebarItem .link.active {
+  font-weight: 600;
+}
 
 /* ===== Content Typography ===== */
 .vp-doc h1 {
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: -0.02em;
-  font-size: 2rem;
+  font-size: 2.2rem;
+  margin-top: 1rem;
 }
-
 .vp-doc h2 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.5rem;
   border-bottom: 1px solid var(--vp-c-divider);
   padding-bottom: 0.4rem;
   margin-top: 2.5rem;
 }
-
 .vp-doc h3 {
   font-weight: 600;
   font-size: 1.15rem;
@@ -102,78 +129,43 @@
 .vp-doc table {
   display: table;
   width: 100%;
+  font-size: 0.9rem;
 }
-
 .vp-doc th {
   background: var(--vp-c-bg-soft);
   font-weight: 600;
-  font-size: 0.9rem;
 }
 
-/* ===== Tip/Warning/Info Blocks ===== */
+/* ===== Tip/Info Blocks ===== */
 .vp-doc .tip,
-.vp-doc .info,
-.vp-doc .warning {
-  border-radius: 4px;
+.vp-doc .info {
+  border-radius: 6px;
   border-left-width: 3px;
 }
 
 /* ===== Footer ===== */
 .VPFooter {
   border-top: 1px solid var(--vp-c-divider);
-  padding: 1.5rem 0;
+  padding: 2rem 0;
 }
 
-/* ===== Contact CTA ===== */
-.contact-cta {
-  text-align: center;
-  padding: 2.5rem;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 6px;
-  margin: 2rem 0;
-}
-
-.contact-btn-primary {
-  display: inline-block;
-  padding: 14px 36px;
-  background: #1a56db;
+/* ===== Action Buttons ===== */
+.VPHero .actions .VPButton.brand {
+  background: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
   color: #fff;
-  border-radius: 6px;
-  font-size: 1.05rem;
   font-weight: 600;
-  text-decoration: none;
-  transition: background 0.2s, transform 0.1s;
-  letter-spacing: 0.01em;
+  padding: 0 28px;
+  border-radius: 8px;
 }
-
-.contact-btn-primary:hover {
-  background: #1e40af;
-  text-decoration: none;
-  color: #fff;
-  transform: translateY(-1px);
-}
-
-.contact-hint {
-  margin-top: 1rem;
-  font-size: 0.9rem;
-  color: var(--vp-c-text-2);
-}
-
-/* ===== Team Page ===== */
-.VPTeamMembers .container {
-  max-width: 960px;
+.VPHero .actions .VPButton.alt {
+  border-radius: 8px;
+  font-weight: 500;
 }
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
-  .VPHero .text {
-    font-size: 1.1rem;
-  }
-  .VPHero .tagline {
-    font-size: 0.95rem;
-  }
-  .contact-cta {
-    padding: 1.5rem;
-  }
+  .VPHero .name { font-size: 1.8rem; }
+  .VPHero .text { font-size: 1rem; }
+  .VPFeature { padding: 1.2rem; }
 }

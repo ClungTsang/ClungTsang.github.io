@@ -1,4 +1,5 @@
 FROM node:22-slim AS builder
+# Build cache bust: 2026-06-12-v2
 RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 RUN corepack enable && corepack prepare pnpm@9 --activate

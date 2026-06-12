@@ -1,45 +1,47 @@
 ---
 layout: home
 
-title: Zhi En Chuangke Technology (Shenzhen) Co., Ltd.
-titleTemplate: Corporate Website · IT Services & RPA Automation · Greater Bay Area
+title: Zhi En Chuangke Tech
+titleTemplate: AI · Full-Stack · RPA Automation
 
 hero:
-  name: Zhi En Chuangke Technology
-  text: IT Services and RPA Automation Partner in the Greater Bay Area
-  tagline: Based in Shenzhen, serving Shenzhen, Hong Kong and Macao
-  # image:
-  #   src: https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/avatar.webp
-  #   alt: Zhi En Chuangke Technology Logo
+  name: Zhi En Chuangke Tech
+  text: AI × Full-Stack Dev × RPA Automation
+  tagline: Based in Shenzhen Greater Bay Area, serving global clients. One-stop tech services from AI strategy to system delivery.
   actions:
     - theme: brand
       text: About Us
-      link: /about/
-    - theme: alt
-      text: Services
-      link: /services/
+      link: /en/about/
     - theme: alt
       text: Case Studies
-      link: /case/
-    # - theme: brand
-    #   text: Contact
-    #   link: /contact/
+      link: /en/case/
+    - theme: alt
+      text: Contact
+      link: /en/contact/
 
 features:
-  - icon: 💼
-    title: Corporate Websites and Brand Presence
-    details: Design and build professional corporate sites for Greater Bay Area companies, with multilingual and cross-region support.
-    link: /services/#it-服务
-    linkText: View IT Services
   - icon: 🤖
-    title: RPA Automation and Process Optimization
-    details: RPA solutions based on Laiye, tailored for cross-border e-commerce, standalone sites, finance and mini program operations.
-    link: /services/#rpa-自动化
-    linkText: View RPA Solutions
-  - icon: 🚀
-    title: Continuous IT Services and Operations
-    details: Long-term operation, consulting and performance optimization services to support stable growth in Shenzhen, Hong Kong and Macao.
-    link: /contact/
-    linkText: Talk to a Consultant
+    title: AI Applications
+    details: GEO brand monitoring, LLM API aggregation, AI agent automation workflows. Empower your brand visibility and operations with AI.
+    link: /en/case/
+  - icon: 💻
+    title: Full-Stack Development
+    details: Spring Boot · Vue 3 · Nuxt 4 · Railway cloud. From corporate websites to SaaS platforms — reliable, production-grade delivery.
+    link: /en/case/
+  - icon: ⚡
+    title: RPA Automation
+    details: Deep partner of Laiye RPA. Custom automation solutions for manufacturing, finance, and e-commerce scenarios.
+    link: /en/about/
+  - icon: 🌏
+    title: Cross-Border Services
+    details: Covering Greater China, Japan, and Africa. Multi-language, multi-currency tech capabilities.
+    link: /en/about/
+  - icon: 🏢
+    title: Zero-to-One Delivery
+    details: 6+ full-stack projects delivered end-to-end. We understand business, not just code.
+    link: /en/case/
+  - icon: 🤝
+    title: Long-Term Tech Partner
+    details: We position as your "tech partner who understands business" — not a one-time outsourcer.
+    link: /en/contact/
 ---
-

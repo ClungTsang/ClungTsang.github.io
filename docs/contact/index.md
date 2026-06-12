@@ -1,136 +1,94 @@
 ---
-title: 联络我们
+title: 联系我们
 ---
 
-<script setup>
-import { ref, reactive } from 'vue'
-import { ElMessage } from 'element-plus'
+# 联系我们
 
-const formRef = ref()
-const formModel = reactive({
-  name: '',
-  company: '',
-  email: '',
-  phone: '',
-  type: 0,
-  message: ''
-})
-
-const submitting = ref(false)
-
-const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-
-const rules = {
-  name: [{ required: true, message: '请填写称呼', trigger: 'blur' }],
-  email: [
-    { required: true, message: '请填写邮箱', trigger: 'blur' },
-    { pattern: emailPattern, message: '邮箱格式不正确', trigger: ['blur', 'change'] }
-  ],
-  message: [{ required: true, message: '请简单描述需求', trigger: 'blur' }]
-}
-
-const handleSubmit = () => {
-  if (!formRef.value) return
-  formRef.value.validate(async (valid) => {
-    if (!valid) return
-    submitting.value = true
-    try {
-      const response = await fetch('/api/cooperation/submit', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          company_name: formModel.company,
-          contact_person: formModel.name,
-          contact_info: formModel.phone,
-          email: formModel.email,
-          contact_type: formModel.type,
-          cooperation_content: formModel.message
-        })
-      })
-      if (!response.ok) {
-        throw new Error('Request failed')
-      }
-      ElMessage.success('提交成功，我们会尽快与您联系')
-    } catch (e) {
-      ElMessage.error('提交时出现异常，请稍后再试或直接通过邮箱联系')
-    } finally {
-      submitting.value = false
-    }
-  })
-}
-
-</script>
-
-# 联络我们
-
-如果你希望了解更多关于 IT 服务或 RPA 自动化导入的细节，欢迎透过以下方式与智恩创科科技（深圳）有限公司联系。
+如需了解 AI 大模型应用、全栈开发或 RPA 自动化服务，欢迎通过以下方式与智恩创科科技（深圳）有限公司取得联系。
 
 [[toc]]
 
-## 商务合作 📩
-<ClientOnly>
-  <el-form
-    ref="formRef"
-    :model="formModel"
-    :rules="rules"
-    label-width="auto"
-    label-position="top"
-    label-suffix="："
-    class="contact-business-form"
-  >
-    <el-form-item label="称呼" prop="name">
-      <el-input v-model="formModel.name" placeholder="如何称呼您" />
-    </el-form-item>
-    <el-form-item label="公司" prop="company">
-      <el-input v-model="formModel.company" placeholder="公司或团队名称" />
-    </el-form-item>
-    <el-form-item label="邮箱" prop="email">
-      <el-input v-model="formModel.email" placeholder="用于接收回复的邮箱" />
-    </el-form-item>
-    <el-form-item label="电话">
-      <el-input v-model="formModel.phone" placeholder="可选，便于快速联系" />
-    </el-form-item>
-    <el-form-item label="类型">
-      <el-select v-model="formModel.type" placeholder="请选择需求类型">
-        <el-option label="商务咨询" :value="0" />
-        <el-option label="技术合作" :value="1" />
-        <el-option label="RPA 项目" :value="2" />
-        <el-option label="其他" :value="3" />
-      </el-select>
-    </el-form-item>
-    <el-form-item label="需求说明" prop="message">
-      <el-input
-        v-model="formModel.message"
-        type="textarea"
-        :rows="4"
-        placeholder="请简单描述您的业务场景、目标或当前遇到的问题"
-      />
-    </el-form-item>
-    <el-form-item>
-      <el-button type="primary" :loading="submitting" @click="handleSubmit">
-        提交信息
-      </el-button>
-    </el-form-item>
-  </el-form>
-</ClientOnly>
+## 商务合作咨询 🚀
+
+<div class="contact-cta">
+  <a href="https://www.feishu.cn/share/base/form/shrcnTBD" class="contact-btn-primary" target="_blank">
+    📋 填写商务合作表单（飞书）
+  </a>
+  <p class="contact-hint">点击跳转飞书表单，填写基本信息与需求，我们会在 1 个工作日内回复。</p>
+</div>
+
+::: tip 表单内容提示
+我们会需要你提供：称呼、公司名称、邮箱、电话（可选）、需求类型（商务咨询 / 技术合作 / RPA 项目 / 其他）、需求简述。
+:::
+
+## 公司信息 🏢
+
+| 项目 | 详情 |
+|------|------|
+| 公司全称 | 智恩创科科技（深圳）有限公司 |
+| 办公地址 | 深圳市龙岗区创投大厦 B510 |
+| 官方网站 | [innogrid.asia](https://innogrid.asia) |
+| OmniGEO | [omni-geo.cn](https://omni-geo.cn) |
+| GitHub | [github.com/ClungTsang](https://github.com/ClungTsang) |
+| 邮箱 | shawn1440982358@gmail.com |
 
 ## 技术与售后支持 🛠️
 
+如果你已是合作客户，需要技术支持或运维服务：
+
 - 现有专案的运维与功能优化
 - RPA 机器人调整与异常排查
-- 内部团队培训与顾问服务
+- 内部团队培训与技术顾问
 
 > [!NOTE]
-> 若你已是合作客户，建议在邮件标题中附上公司名称与专案名称，以便我们更快定位背景资讯。
+> 请在邮件标题中附上公司名称与项目名称，以便我们更快定位背景资讯。
 
 ## 人才与合作 🤝
 
-如果你是对 IT 服务或 RPA 自动化有热情的工程师、顾问或合伙人，也非常欢迎透过联络方式与我们取得联系，一同为大湾区企业提供更好的数位服务。
+如果你是 AI 工程师、全栈开发者或 RPA 顾问，欢迎加入智恩创科：
 
-::: info 合作方向示例
-- RPA 产品与平台合作
+- **前端开发**: Vue 3 · Nuxt 4 · TypeScript · Element Plus
+- **后端开发**: Spring Boot · Python · Supabase
+- **AI 应用**: 大模型 API 集成 · Agent 开发 · GEO 优化
+- **RPA**: 来也科技平台 · 流程设计 · 客户场景落地
+
+::: info 合作方向
+- AI / RPA 产品与平台合作
 - 行业顾问与方案共创
-- 技术社群与分享活动
+- 高校合作与技术分享
 :::
+
+---
+
+> 我们期待与你的合作。🎯
+
+<style scoped>
+.contact-cta {
+  text-align: center;
+  padding: 2rem;
+  background: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+.contact-btn-primary {
+  display: inline-block;
+  padding: 14px 32px;
+  background: #1a56db;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.contact-btn-primary:hover {
+  background: #1e40af;
+  text-decoration: none;
+  color: #fff;
+}
+.contact-hint {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+}
+</style>

@@ -12,28 +12,33 @@ import {
 
 const coreMembers = [
   {
-    avatar: 'https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/avatar.webp',
-    name: 'CEO',
-    title: '首席执行官',
-    desc: '负责公司整体战略规划与业务方向把控，推动企业持续成长。',
-    // links: [
-    //   {
-    //     icon: 'github',
-    //     link: 'https://github.com/ClungTsang'
-    //   }
-    // ]
+    avatar: '/logo.png',
+    name: '曾楚龙',
+    title: '创始人 & CEO',
+    org: '智恩创科科技（深圳）有限公司',
+    orgLink: 'https://innogrid.asia',
+    desc: '全栈工程师，AI 大模型与 RPA 自动化领域深耕者。主导 OmniGEO、CTN Express 等多个产品从 0 到 1 的全流程交付，负责公司整体战略与技术方向。'
   },
   {
-    avatar: 'https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/avatar.webp',
-    name: 'CTO',
-    title: '首席技术官',
-    desc: '专注 Spring 全家桶、Vue 全家桶与 RPA 落地，负责技术架构与关键项目交付。'
+    avatar: '/logo.png',
+    name: 'Kenny',
+    title: '联合创始人 & COO',
+    org: '智恩创科科技',
+    desc: '香港公司法人，负责整体业务战略与销售拓展。深耕跨境商业领域，推动公司在大湾区及海外市场的客户关系与渠道建设。'
   },
   {
-    avatar: 'https://hisher-1258325826.cos.ap-guangzhou.myqcloud.com/blog/avatar.webp',
-    name: 'COO',
-    title: '首席运营官',
-    desc: '负责运营管理与项目落地执行，确保解决方案在大湾区企业顺利实施。'
+    avatar: '/logo.png',
+    name: '袁豪',
+    title: 'CTO',
+    org: '智恩创科科技',
+    desc: '技术架构负责人，专注 Spring 全家桶、Vue 生态与云端基础设施。主导多个企业级系统的架构设计与关键项目交付，保障系统稳定与持续演进。'
+  },
+  {
+    avatar: '/logo.png',
+    name: '黄文杰',
+    title: '前端开发工程师',
+    org: '智恩创科科技',
+    desc: '负责 Vue/Nuxt 前端开发与 UI 实现，参与 OmniGEO SaaS 平台、公司官网及多个客户项目的界面开发与交互优化。'
   }
 ]
 </script>
@@ -42,8 +47,8 @@ const coreMembers = [
   <VPTeamPageTitle>
     <template #title>我们的团队</template>
     <template #lead>
-      智恩创科科技（深圳）有限公司是一支专注于大湾区企业 IT 服务与 RPA 自动化落地的技术团队，
-      由熟悉 Spring 与 Vue 主流技术栈并深度参与业务场景的成员组成。
+      智恩创科科技由一群深耕 AI 大模型、RPA 自动化与企业级全栈开发的技术人才组成，
+      核心成员拥有从产品设计到系统交付的完整闭环经验。
     </template>
   </VPTeamPageTitle>
 
